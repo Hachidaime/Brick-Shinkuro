@@ -2,6 +2,7 @@
     "name": "brick-shinkuro",
     "displayName": "Brick Shinkuro",
     "description": "Brick Shinkuro Color Themes",
+    "publisher": "Hachidaime",
     "version": "1.0.0",
     "repository": {
         "type": "git",
@@ -30,5 +31,6 @@
                 "path": "./themes/Brick Shinkuro-color-theme.json"
             }
         ]
-    }
+    },
+    "license": "MIT"
 }
