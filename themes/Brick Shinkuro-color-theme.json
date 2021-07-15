@@ -216,6 +216,7 @@
         {
             "scope": [
                 "support.function.misc.scss",
+                "support.function.misc.css",
                 "entity.other.attribute-name.pseudo-element.css"
             ],
             "settings": {
@@ -224,7 +225,7 @@
             }
         },
         {
-            "scope": ["meta.property-name.scss"],
+            "scope": ["meta.property-name.scss", "meta.property-name.css"],
             "settings": {
                 "foreground": "#999966",
                 "fontStyle": "bold"
@@ -233,7 +234,9 @@
         {
             "scope": [
                 "constant.numeric.css",
-                "support.constant.property-value.css"
+                "constant.other.color.rgb-value.hex.css",
+                "support.constant.property-value.css",
+                "meta.property-value.css"
             ],
             "settings": {
                 "foreground": "#ffffff",
@@ -243,8 +246,10 @@
         {
             "scope": [
                 "keyword.control.at-rule.include.scss",
+                "keyword.control.at-rule.media.css",
                 "keyword.other.important.scss",
-                "meta.at-rule.include.scss"
+                "meta.at-rule.include.scss",
+                "support.type.property-name.media.css"
             ],
             "settings": {
                 "foreground": "#339999"
