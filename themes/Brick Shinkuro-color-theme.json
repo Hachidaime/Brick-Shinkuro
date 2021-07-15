@@ -137,6 +137,43 @@
             "settings": {
                 "foreground": "#ff00ff"
             }
+        },
+        {
+            "scope": ["text.html.derivative"],
+            "settings": {
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "scope": [
+                "entity.name.tag.html",
+                "punctuation.definition.tag.begin.html",
+                "punctuation.definition.tag.end.html"
+            ],
+            "settings": {
+                "foreground": "#ff6600",
+                "fontStyle": ""
+            }
+        },
+        {
+            "scope": ["entity.other.attribute-name.html"],
+            "settings": {
+                "foreground": "#99CC99",
+                "fontStyle": ""
+            }
+        },
+        {
+            "scope": "comment.block.html",
+            "settings": {
+                "foreground": "#00cc00"
+            }
+        },
+        {
+            "scope": "invalid.illegal.character-not-allowed-here.html",
+            "settings": {
+                "foreground": "#99CC99",
+                "fontStyle": ""
+            }
         }
     ],
     "colors": {
@@ -212,7 +249,7 @@
         "input.placeholderForeground": "#a6a6a6",
         "textLink.foreground": "#3794ff",
         "editor.background": "#000000",
-        "editor.foreground": "#d4d4d4",
+        "editor.foreground": "#ffffff",
         "editorLineNumber.foreground": "#858585",
         "editorCursor.foreground": "#aeafad",
         "editorCursor.background": "#000000",
@@ -329,9 +366,9 @@
         "gitDecoration.conflictingResourceForeground": "#6c6cc4",
         "gitDecoration.deletedResourceForeground": "#c74e39",
         "gitDecoration.ignoredResourceForeground": "#8c8c8c",
-        "gitDecoration.modifiedResourceForeground": "#e2c08d",
+        "gitDecoration.modifiedResourceForeground": "#f47c3c",
         "gitDecoration.stageDeletedResourceForeground": "#c74e39",
-        "gitDecoration.stageModifiedResourceForeground": "#e2c08d",
+        "gitDecoration.stageModifiedResourceForeground": "#f47c3c",
         "gitDecoration.submoduleResourceForeground": "#8db9e2",
         "gitDecoration.untrackedResourceForeground": "#73c991",
         "editorMarkerNavigation.background": "#2d2d30",
