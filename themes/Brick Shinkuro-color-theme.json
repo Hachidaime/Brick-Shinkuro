@@ -174,6 +174,96 @@
                 "foreground": "#99CC99",
                 "fontStyle": ""
             }
+        },
+        {
+            "scope": [
+                "meta.definition.variable.scss",
+                "variable.scss",
+                "entity.name.tag.css"
+            ],
+            "settings": {
+                "foreground": "#FF6600",
+                "fontStyle": ""
+            }
+        },
+        {
+            "scope": [
+                "entity.other.attribute-name.class.css",
+                "entity.other.attribute-name.parent-selector-suffix.css"
+            ],
+            "settings": {
+                "foreground": "#99cc99",
+                "fontStyle": ""
+            }
+        },
+        {
+            "scope": ["entity.other.attribute-name.id.css"],
+            "settings": {
+                "foreground": "#339999",
+                "fontStyle": ""
+            }
+        },
+        {
+            "scope": [
+                "variable.parameter.url",
+                "entity.name.tag.reference.scss"
+            ],
+            "settings": {
+                "foreground": "#ff8000",
+                "fontStyle": ""
+            }
+        },
+        {
+            "scope": [
+                "support.function.misc.scss",
+                "entity.other.attribute-name.pseudo-element.css"
+            ],
+            "settings": {
+                "foreground": "#ff8080",
+                "fontStyle": ""
+            }
+        },
+        {
+            "scope": ["meta.property-name.scss"],
+            "settings": {
+                "foreground": "#999966",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "scope": [
+                "constant.numeric.css",
+                "support.constant.property-value.css"
+            ],
+            "settings": {
+                "foreground": "#ffffff",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "scope": [
+                "keyword.control.at-rule.include.scss",
+                "keyword.other.important.scss",
+                "meta.at-rule.include.scss"
+            ],
+            "settings": {
+                "foreground": "#339999"
+            }
+        },
+        {
+            "scope": [
+                "keyword.control.at-rule.include.scss",
+                "keyword.other.important.scss"
+            ],
+            "settings": {
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "scope": ["comment.block.scss", "comment.line.scss"],
+            "settings": {
+                "foreground": "#00aa00"
+            }
         }
     ],
     "colors": {
@@ -203,7 +293,7 @@
         "list.activeSelectionForeground": "#ffffff",
         "tree.indentGuidesStroke": "#585858",
         "list.dropBackground": "#383b3d",
-        "list.highlightForeground": "#0c97fb",
+        "list.highlightForeground": "#800000",
         "list.focusBackground": "#8d8961",
         "list.focusForeground": "#000000",
         "listFilterWidget.background": "#653723",
