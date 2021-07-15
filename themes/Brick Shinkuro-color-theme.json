@@ -269,6 +269,113 @@
             "settings": {
                 "foreground": "#00aa00"
             }
+        },
+        {
+            "scope": ["constant.numeric.decimal.js"],
+            "settings": {
+                "foreground": "#99cc99"
+            }
+        },
+        {
+            "scope": [
+                "meta.function-call.js",
+                "meta.definition.variable.js",
+                "meta.object-literal.key.js",
+                "support.class.builtin.js",
+                "variable.language.this.js",
+                "variable.other.object.js",
+                "variable.other.object.property.js",
+                "variable.other.readwrite.js",
+                "variable.parameter.js"
+            ],
+            "settings": {
+                "foreground": "#ff6600"
+            }
+        },
+        {
+            "scope": [
+                "constant.language.null.js",
+                "constant.language.boolean.true.js",
+                "constant.language.boolean.false.js",
+                "entity.name.function.js",
+                "keyword.control.conditional.js",
+                "keyword.control.flow.js",
+                "keyword.control.loop.js",
+                "keyword.control.trycatch.js",
+                "keyword.operator.expression.of.js",
+                "keyword.operator.expression.in.js",
+                "keyword.operator.new.js",
+                "storage.modifier.async.js",
+                "storage.type.js",
+                "storage.type.function.js",
+                "variable.other.property.js"
+            ],
+            "settings": {
+                "foreground": "#ffcc00",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "scope": ["string.quoted.single.js", "string.quoted.double.js"],
+            "settings": {
+                "foreground": "#ffff00"
+            }
+        },
+        {
+            "scope": "string.template.js",
+            "settings": {
+                "foreground": "#ffff80"
+            }
+        },
+        {
+            "scope": "string.regexp.js",
+            "settings": {
+                "foreground": "#399999",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "scope": "comment.line.double-slash.js",
+            "settings": {
+                "foreground": "#00cc00"
+            }
+        },
+        {
+            "scope": "comment.block.documentation.js",
+            "settings": {
+                "foreground": "#772cb7"
+            }
+        },
+        {
+            "scope": "entity.name.type.instance.jsdoc",
+            "settings": {
+                "foreground": "#cccccc",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "scope": "storage.type.class.jsdoc",
+            "settings": {
+                "foreground": "#ffffff",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "scope": [
+                "keyword.operator.arithmetic.js",
+                "keyword.operator.assignment.js",
+                "keyword.operator.comparison.js",
+                "keyword.operator.decrement.js",
+                "keyword.operator.increment.js",
+                "keyword.operator.logical.js",
+                "keyword.operator.relational.js",
+                "punctuation.terminator.statement.js",
+                "storage.type.function.arrow.js"
+            ],
+            "settings": {
+                "foreground": "#996666",
+                "fontStyle": "bold"
+            }
         }
     ],
     "colors": {
