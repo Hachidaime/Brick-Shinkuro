@@ -141,8 +141,7 @@
         {
             "scope": ["text.html.derivative"],
             "settings": {
-                "foreground": "#fff",
-                "fontStyle": "bold"
+                "foreground": "#fff"
             }
         },
         {
@@ -444,7 +443,7 @@
         "button.secondaryForeground": "#ffffff",
         "button.secondaryBackground": "#3a3d41",
         "button.secondaryHoverBackground": "#45494e",
-        "input.background": "#3c3c3c",
+        "input.background": "#252734",
         "input.border": "#00000000",
         "input.foreground": "#cccccc",
         "inputOption.activeBackground": "#007fd466",
