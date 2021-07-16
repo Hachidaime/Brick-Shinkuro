@@ -376,10 +376,16 @@
                 "foreground": "#996666",
                 "fontStyle": "bold"
             }
+        },
+        {
+            "scope": "support.type.property-name.json",
+            "settings": {
+                "foreground": "#ff6600"
+            }
         }
     ],
     "colors": {
-        "foreground": "#cccccc",
+        "foreground": "#000000",
         "focusBorder": "#c2bfa5",
         "selection.background": "#8d8961a6",
         "scrollbar.shadow": "#000000",
