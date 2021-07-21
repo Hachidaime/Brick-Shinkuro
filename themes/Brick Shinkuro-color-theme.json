@@ -114,6 +114,13 @@
             }
         },
         {
+            "scope": ["comment.line.number-sign.php"],
+            "settings": {
+                "foreground": "#772cb7",
+                "fontStyle": "italic"
+            }
+        },
+        {
             "scope": "keyword.other.phpdoc.php",
             "settings": {
                 "foreground": "#00cc00",
