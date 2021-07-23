@@ -94,8 +94,10 @@
             "scope": [
                 "keyword.control.if.php",
                 "keyword.control.return.php",
+                "support.function.basic_functions.php",
                 "support.function.array.php",
                 "support.function.construct.php",
+                "support.function.file.php",
                 "support.function.network.php"
             ],
             "settings": {
@@ -481,7 +483,7 @@
         "button.secondaryForeground": "#ffffff",
         "button.secondaryBackground": "#3a3d41",
         "button.secondaryHoverBackground": "#45494e",
-        "input.background": "#11111d",
+        "input.background": "#08080e",
         "input.border": "#00000000",
         "input.foreground": "#cccccc",
         "inputOption.activeBackground": "#007fd466",
