@@ -254,6 +254,7 @@
         },
         {
             "scope": [
+                "keyword.control.at-rule.import.scss",
                 "keyword.control.at-rule.include.scss",
                 "keyword.control.at-rule.media.css",
                 "keyword.other.important.scss",
@@ -550,10 +551,11 @@
         "panelTitle.inactiveForeground": "#e7e7e799",
         "badge.background": "#4a4e69",
         "badge.foreground": "#ffffff",
+        "terminal.background": "#11111d",
         "terminal.foreground": "#cccccc",
         "terminal.selectionBackground": "#ffffff40",
-        "terminalCursor.background": "#ffffff",
-        "terminalCursor.foreground": "#000000",
+        "terminalCursor.background": "#22223b",
+        "terminalCursor.foreground": "#cacae0",
         "terminal.border": "#80808059",
         "terminal.ansiBlack": "#000000",
         "terminal.ansiBlue": "#2472c8",
